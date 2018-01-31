@@ -1,0 +1,21 @@
+{
+    "name": "yuan/blue-framework",
+    "description": "this is my framework",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "袁树立",
+            "email": "1923244321@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "BlueSpring\\Router\\": "src/"
+        }
+    }
+}
